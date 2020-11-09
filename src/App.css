@@ -1,0 +1,42 @@
+:root{
+  --mainBlue: hsl(160, 48%, 51%);
+  --lightBlue: hsl(160, 45%, 55%);
+  --mainWhite: #f3f3f3;
+  --mainGrey: #908890;
+  --mainOrange: rgb(214, 135, 32);
+  --navColor: hsl(168, 4%, 25%);
+}
+
+body{
+  font-family: 'Caladea', sans-serif !important;
+  background-color: rgb(252, 250, 250) !important;
+  color: var(--mainGrey) !important;
+}
+
+.text-bright {
+  color: var(--lightBlue)
+}
+
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: var(--mainDark);
+    border-radius: 0 !important;
+    border: 0.1rem solid var(--mainDark)!important;
+    }
+.btn-black:hover{
+    background: var(--mainDark) !important;
+    color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--mainYellow);
+}
+   
+hr {
+    width: 60px;
+    background-color: var(--mainBlue);
+}

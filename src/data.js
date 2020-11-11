@@ -2,7 +2,7 @@ export const storeProducts = [
     {
         id: 1,
         title: "Needle & Thread Petunia Gown",
-        img: "img/product-1.JPG",
+        img: "img/product-1.jpg",
         price: 2000,
         color: "CHAMPAGNE",
         size: "made to order",
@@ -14,7 +14,7 @@ export const storeProducts = [
     {
         id: 2,
         title: "Wtoo by Watters Miles Gown",
-        img: "img/product-2.JPG",
+        img: "img/product-2.jpg",
         price: 2700,
         color: "IVORY",
         size: "made to order",
@@ -26,7 +26,7 @@ export const storeProducts = [
     {
         id: 3,
         title: "Sachin & Babi Branwell Gown",
-        img: "img/product-3.JPG",
+        img: "img/product-3.jpg",
         price: 3400,
         color: "WHITE",
         size: "made to order",
@@ -38,7 +38,7 @@ export const storeProducts = [
     {
         id: 4,
         title: "Sinclair Dress",
-        img: "img/product-4.JPG",
+        img: "img/product-4.jpg",
         price: 1900,
         color: "NATURAL WHITE",
         size: "made to order",
@@ -50,7 +50,7 @@ export const storeProducts = [
     {
         id: 5,
         title: "Wtoo by Watters Viola Gown",
-        img: "img/product-5.JPG",
+        img: "img/product-5.jpg",
         price: 4500,
         color: "TAWNY",
         size: "made to order",
@@ -62,7 +62,7 @@ export const storeProducts = [
     {
         id: 6,
         title: "Needle & Thread Petunia Gown",
-        img: "img/product-6.JPG",
+        img: "img/product-6.jpg",
         price: 3600,
         color: "STARK WHITE",
         size: "made to order",
@@ -74,7 +74,7 @@ export const storeProducts = [
     {
         id: 7,
         title: "Odalis Gown",
-        img: "img/product-7.JPG",
+        img: "img/product-7.jpg",
         price: 900,
         color: "ALABASTER",
         size: "made to order",
@@ -86,7 +86,7 @@ export const storeProducts = [
     {
         id: 8,
         title: "Watters Brides Frederique Gown",
-        img: "img/product-8.JPG",
+        img: "img/product-8.jpg",
         price: 7100,
         color: "PEARL",
         size: "made to order",
@@ -98,7 +98,7 @@ export const storeProducts = [
     {
         id: 9,
         title: "Caron Dress",
-        img: "img/product-9.JPG",
+        img: "img/product-9.jpg",
         price: 1800,
         color: "WHITE WINE",
         size: "made to order",
@@ -110,7 +110,7 @@ export const storeProducts = [
     {
         id: 10,
         title: "Odalis Gown",
-        img: "img/product-10.JPG",
+        img: "img/product-10.jpg",
         price: 2100,
         color: "IVORY",
         size: "made to order",
@@ -122,7 +122,7 @@ export const storeProducts = [
     {
         id: 11,
         title: "Amy Kuschel Redding Gown",
-        img: "img/product-11.JPG",
+        img: "img/product-11.jpg",
         price: 1000,
         color: "STARK WHITE",
         size: "made to order",
@@ -134,7 +134,7 @@ export const storeProducts = [
     {
         id: 12,
         title: "Nassau Gown",
-        img: "img/product-12.JPG",
+        img: "img/product-12.jpg",
         price: 1400,
         color: "CHAMPAGNE",
         size: "made to order",
@@ -148,7 +148,7 @@ export const storeProducts = [
   export const detailProduct = {
         id: 1,
         title: "Needle & Thread Petunia Gown",
-        img: "img/product-1.JPG",
+        img: "img/product-1.jpg",
         price: 2000,
         color: "CHAMPAGNE",
         size: "made to order",

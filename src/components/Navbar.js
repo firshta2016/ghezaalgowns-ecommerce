@@ -4,7 +4,6 @@ import logo from '../gezallogo.png';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
-
 export default class Navbar extends Component {
     render() {
         return (
@@ -26,7 +25,7 @@ export default class Navbar extends Component {
                     </Link>
                 </li>
                 <li className="active nav-item">
-                    <Link to="/" className="nav-link">
+                    <Link to="BridesMaid" className="nav-link">
                         bridesmaid & bridal party 
                     </Link>
                 </li>
@@ -36,7 +35,7 @@ export default class Navbar extends Component {
                     </Link>
                 </li>
 
-                <Link to="/cart" className="ml-auto">
+                <Link to="/Cart" className="ml-auto">
                     <ButtonContainer>
                     <span>
                         <i className="fa fa-cart-plus" />

@@ -7,7 +7,10 @@ import ProductList from "./components/ProductList";
 import Details from "./components/Details";
 import Default from "./components/Default";
 import Cart from "./components/Cart";
-//import Modal from "./components/Modal";
+import Footer from "./components/Footer";
+import BridesMaid from "./components/BridesMaid";
+//import Shoes from "/components/Shoes";
+
 class App extends Component {
   render() {
     return (
@@ -17,9 +20,11 @@ class App extends Component {
           <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
+          <Route path="/BridesMaid" component={BridesMaid} />
+          {/* <Route path="/Shoes" component={Shoes} /> */}
           <Route component={Default} />
         </Switch>
-        {/* <Modal /> */}
+        <Footer />
       </React.Fragment>
     );
   }

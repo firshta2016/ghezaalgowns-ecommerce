@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CartItem from "./CartItem";
-export default class CartList extends Component {
+
+export default class CartList extends React.Component {
   render() {
     const { value } = this.props;
     const { cart } = this.props.value;

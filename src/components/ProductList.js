@@ -4,7 +4,8 @@ import Title from "./Title";
 import { storeProducts } from "../data";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
-export default class ProductList extends Component {
+
+export default class ProductList extends React.Component {
   state = {
     products: storeProducts
   };

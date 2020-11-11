@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class CartColumns extends Component {
+export default class CartColumns extends React.Component {
   render() {
     return (
       <div className="container-fluid text-center d-none d-lg-block">
@@ -26,5 +26,5 @@ export default class CartColumns extends Component {
         </div>
       </div>
     );
-  }
-}
+  };
+};

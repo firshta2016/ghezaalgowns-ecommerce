@@ -1,8 +1,9 @@
 import React from 'react'
 
-export default function CartItem({item, value}) {
-    const { id, title, img, price, total, count} = item
-    const {increment, decrement, removeItem} = value
+export default class CartItem extends React.Component {
+    render() {
+    const { id, title, img, price, total, count} = this.props.item;
+    const {increment, decrement, removeItem} = this.props.value;
     return (
         <div className="row my-2 text-capitalized text-center">
             <div className="col-10 mx-auto col-lg-2">
@@ -40,4 +41,5 @@ export default function CartItem({item, value}) {
             </div>
         </div>
     )
+    }
 }

@@ -9,7 +9,7 @@ import Default from "./components/Default";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import BridesMaid from "./components/BridesMaid";
-//import Shoes from "/components/Shoes";
+import Shoes from "./components/Shoes";
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route path="/BridesMaid" component={BridesMaid} />
-          {/* <Route path="/Shoes" component={Shoes} /> */}
+          <Route path="/Shoes" component={BridesMaid} />
           <Route component={Default} />
         </Switch>
         <Footer />

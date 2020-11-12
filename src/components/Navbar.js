@@ -30,7 +30,7 @@ export default class Navbar extends Component {
                     </Link>
                 </li>
                 <li className="active nav-item">
-                    <Link to="/" className="nav-link">
+                    <Link to="/Shoes" className="nav-link">
                         shoes & accessories
                     </Link>
                 </li>
@@ -61,12 +61,13 @@ const NavWrapper = styled.nav `
         color: var(--mainGrey) !important;
     }
     .navbar-nav {
-        margin-left: 550px;
+        margin-left: 850px;
     } 
     .navbar-toggler {
         background-color: var(--lightBlue);
     }
     .navbar-brand {
         height: 100px;
+        text-decoration: none;
     }
 `;

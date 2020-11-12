@@ -39,7 +39,7 @@ export default class Footer extends Component {
                             <p>
                             <i className="fa fa-home mr-3"></i> Seattle, WA 98000</p>
                             <p>
-                            <i className="fa fa-envelope mr-3"></i> fakecompant@example.com</p>
+                            <i className="fa fa-envelope mr-3"></i> fakecompany@example.com</p>
                             <p>
                             <i className="fa fa-phone mr-3"></i> + 01 234 567 88</p>
                             <p>

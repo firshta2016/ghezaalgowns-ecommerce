@@ -1,10 +1,21 @@
-import product5 from "./assets/img/product5.jpg"
+import product1 from "./assets/img/product1.jpg";
+import product2 from "./assets/img/product2.jpg";
+import product3 from "./assets/img/product3.jpg";
+import product4 from "./assets/img/product4.jpg";
+import product5 from "./assets/img/product5.jpg";
+import product6 from "./assets/img/product6.jpg";
+import product7 from "./assets/img/product7.jpg";
+import product8 from "./assets/img/product8.jpg";
+import product9 from "./assets/img/product9.jpg";
+import product10 from "./assets/img/product10.jpg";
+import product11 from "./assets/img/product11.jpg";
+import product12 from "./assets/img/product12.jpg";
 
 export const storeProducts = [
     {
         id: 1,
         title: "Needle & Thread Petunia Gown",
-        img: "img/product1.png",
+        img: product1,
         price: 2000,
         color: "CHAMPAGNE",
         size: "made to order",
@@ -16,7 +27,7 @@ export const storeProducts = [
     {
         id: 2,
         title: "Wtoo by Watters Miles Gown",
-        img: "img/product2.jpg",
+        img: product2,
         price: 2700,
         color: "IVORY",
         size: "made to order",
@@ -28,7 +39,7 @@ export const storeProducts = [
     {
         id: 3,
         title: "Sachin & Babi Branwell Gown",
-        img: "img/product3.jpg",
+        img: product3,
         price: 3400,
         color: "WHITE",
         size: "made to order",
@@ -40,7 +51,7 @@ export const storeProducts = [
     {
         id: 4,
         title: "Sinclair Dress",
-        img: "img/product4.jpg",
+        img: product4,
         price: 1900,
         color: "NATURAL WHITE",
         size: "made to order",
@@ -64,7 +75,7 @@ export const storeProducts = [
     {
         id: 6,
         title: "Needle & Thread Petunia Gown",
-        img: "img/product6.jpg",
+        img: product6,
         price: 3600,
         color: "STARK WHITE",
         size: "made to order",
@@ -76,7 +87,7 @@ export const storeProducts = [
     {
         id: 7,
         title: "Odalis Gown",
-        img: "img/product7.jpg",
+        img: product7,
         price: 900,
         color: "ALABASTER",
         size: "made to order",
@@ -84,11 +95,11 @@ export const storeProducts = [
         inCart: false,
         count: 0,
         total: 0
-        },
+    },
     {
         id: 8,
         title: "Watters Brides Frederique Gown",
-        img: "img/product8.jpg",
+        img: product8,
         price: 7100,
         color: "PEARL",
         size: "made to order",
@@ -96,11 +107,11 @@ export const storeProducts = [
         inCart: false,
         count: 0,
         total: 0
-        },
+    },
     {
         id: 9,
         title: "Caron Dress",
-        img: "img/product9.jpg",
+        img: product9,
         price: 1800,
         color: "WHITE WINE",
         size: "made to order",
@@ -108,11 +119,11 @@ export const storeProducts = [
         inCart: false,
         count: 0,
         total: 0
-        },
+    },
     {
         id: 10,
         title: "Odalis Gown",
-        img: "img/product10.jpg",
+        img: product10,
         price: 2100,
         color: "IVORY",
         size: "made to order",
@@ -120,11 +131,11 @@ export const storeProducts = [
         inCart: false,
         count: 0,
         total: 0
-        },
+    },
     {
         id: 11,
         title: "Amy Kuschel Redding Gown",
-        img: "img/product11.jpg",
+        img: product11,
         price: 1000,
         color: "STARK WHITE",
         size: "made to order",
@@ -132,11 +143,11 @@ export const storeProducts = [
         inCart: false,
         count: 0,
         total: 0
-        },
+    },
     {
         id: 12,
         title: "Nassau Gown",
-        img: "img/product12.jpg",
+        img: product12,
         price: 1400,
         color: "CHAMPAGNE",
         size: "made to order",
@@ -144,18 +155,18 @@ export const storeProducts = [
         inCart: false,
         count: 0,
         total: 0
-        },
+    },
 ];
   
-  export const detailProduct = {
-        id: 1,
-        title: "Needle & Thread Petunia Gown",
-        img: "img/product1.jpg",
-        price: 2000,
-        color: "CHAMPAGNE",
-        size: "made to order",
-        info: "This delicate gown features a ruffled bodice with intricate embroidery and a breezy, Swiss-dot tulle skirt. A soft ribbon detail, floral appliques, and scattered sequins make this look quintessentially romantic.",
-        inCart: false,
-        count: 0,
-        total: 0
-  };
+export const detailProduct = {
+    id: 1,
+    title: "Needle & Thread Petunia Gown",
+    img: product1,
+    price: 2000,
+    color: "CHAMPAGNE",
+    size: "made to order",
+    info: "This delicate gown features a ruffled bodice with intricate embroidery and a breezy, Swiss-dot tulle skirt. A soft ribbon detail, floral appliques, and scattered sequins make this look quintessentially romantic.",
+    inCart: false,
+    count: 0,
+    total: 0
+};
